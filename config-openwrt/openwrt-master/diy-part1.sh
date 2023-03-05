@@ -13,5 +13,7 @@
 # rm -rf package/utils/{ucode,fbtest}
 echo 'src-git helloworld https://github.com/fw876/helloworld'  >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall'  >>feeds.conf.default
+echo 'src-git wrtbwmon https://github.com/brvphoenix/wrtbwmon'  >>feeds.conf.default
+echo 'src-git luci_wrtb https://github.com/brvphoenix/luci-app-wrtbwmon'  >>feeds.conf.default
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages'  >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small'  >>feeds.conf.default
