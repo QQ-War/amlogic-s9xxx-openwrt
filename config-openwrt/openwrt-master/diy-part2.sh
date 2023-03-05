@@ -44,3 +44,7 @@ svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/
 # git apply ../config-openwrt/patches/{0001*,0002*}.patch --directory=feeds/luci
 #
 # ------------------------------- Other ends -------------------------------
+
+git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan
+git clone https://github.com/brvphoenix/wrtbwmon.git package/lean/wrtbwmon
+git clone https://github.com/brvphoenix/luci-app-wrtbwmon.git package/lean/luci-app-wrtbwmon
